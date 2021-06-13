@@ -1,0 +1,44 @@
+@mixin fontFace($family,$src,$style: normal,$weight: normal) {
+	@font-face {
+	    font-family: $family;
+	    font-style: $style;
+	    font-weight: $weight;
+	    src: url('#{$src}.otf');
+	    src: url('#{$src}.eot?#iefix') format('embedded-opentype'), 
+	         url('#{$src}.woff2') format('woff2'), 
+	         url('#{$src}.woff') format('woff'), 
+	         url('#{$src}.ttf') format('truetype'), 
+	         url('#{$src}.svg') format('svg');
+		}
+}
+@mixin large-screen ($break-large-screen){
+	@media only screen and (max-width:$break-large-screen) {
+	  @content;
+	}
+  }
+  @mixin lg-screen ($break-lg-screen){
+	@media only screen and (max-width:$break-lg-screen) {
+	  @content;
+	}
+  }
+
+// @include ipad-portrait (){}
+@mixin ipad-portrait ($minpoint, $maxpoint){
+  @media only screen and (min-width:$minpoint) and (max-width:$maxpoint) {
+    @content;
+  }
+}
+
+// @include ipad-landscape (){}
+@mixin ipad-landscape ($minpoint, $maxpoint){
+  @media only screen and (min-width:$minpoint) and (max-width:$maxpoint) {
+    @content;
+  }
+}
+
+// @include mobile-portrait (){}
+@mixin mobile-portrait ($maxpoint){
+  @media only screen and (max-width:$maxpoint) {
+    @content;
+  }
+}

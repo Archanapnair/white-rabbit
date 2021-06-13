@@ -1,0 +1,318 @@
+body {
+  font: 100% Sailec;
+  color: #000;
+  overflow-x: hidden;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: Sailec;
+  color: #fff;
+}
+
+body ul {
+  padding-left: 0;
+}
+
+body ul li {
+  list-style: none;
+}
+
+body p {
+  color: #fff;
+}
+
+body .navbar-light .navbar-brand {
+  margin-top: 30px;
+}
+
+body .on-scroll {
+  background: #fff !important;
+  border-bottom: 2px solid;
+}
+
+body .on-scroll .navbar-brand svg {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+body .fixed-top {
+  padding: 27px 80px;
+  height: 93px;
+}
+
+body .fixed-top .navbar-expand-lg .navbar-collapse {
+  padding: 0;
+}
+
+body .fixed-top ul.navbar-nav li.nav-item a.nav-link {
+  font-size: 14px;
+  line-height: 120.5%;
+  color: #151442;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+body .fixed-top ul.icons {
+  padding-left: 80px;
+}
+
+body .fixed-top ul.icons li {
+  position: relative;
+  padding-top: 10px;
+}
+
+body .fixed-top ul.icons li a.profile {
+  padding-right: 84px;
+}
+
+body .fixed-top ul.icons li a span {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  background: #102421;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+  line-height: 19.51px;
+  font-size: 12px;
+  position: absolute;
+  right: 30px;
+  font-weight: 300;
+  top: 17px;
+}
+
+body section.home-banner .bg-width {
+  width: 60%;
+}
+
+body section.home-banner .banner-width {
+  width: 40%;
+  position: relative;
+}
+
+body section.home-banner .banner {
+  background-color: #102421;
+  width: 100%;
+  height: 100vh;
+}
+
+body section.home-banner .banner-content {
+  padding: 26% 0 0 22%;
+}
+
+body section.home-banner .banner-content p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120.5%;
+  letter-spacing: 0.5em;
+  color: #d2d2d2;
+}
+
+body section.home-banner .banner-content h1 {
+  font-weight: bold;
+  font-size: 88px;
+  line-height: 120.5%;
+  counter-reset: #000;
+  margin-top: 23px;
+}
+
+body section.home-banner .banner-content p.banner-cont {
+  font-size: 22px;
+  line-height: 120.5%;
+  letter-spacing: 0px;
+  margin-top: 46px;
+}
+
+body section.home-banner .banner-content a.btn.btn-hero {
+  background: #C7E1BF;
+  border-radius: 48px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #102522 !important;
+  width: 161px;
+  height: 58px;
+  padding: 18px 15px;
+  margin-top: 98px;
+}
+
+body section.home-banner .banner-content a.btn.btn-hero.sec {
+  margin-left: 52px;
+}
+
+body section.home-banner .banner-image {
+  position: absolute;
+  z-index: 9;
+  top: 14%;
+  left: -13%;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 100%;
+}
+
+body section.skincare-wrapper {
+  padding: 166px 20px;
+}
+
+body section.skincare-wrapper h2 {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 120.5%;
+  color: #102421;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+body section.skincare-wrapper p {
+  color: #000;
+}
+
+body section.skincare-wrapper h3 {
+  color: #000;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 149.5%;
+  color: #151442;
+  margin-bottom: 19px;
+}
+
+body section.skincare-wrapper h3 span {
+  font-size: 14px;
+  line-height: 149.5%;
+  color: #8F9095;
+  margin-top: 19px;
+  margin-bottom: 26px;
+  display: block;
+}
+
+body section.skincare-wrapper item p {
+  font-size: 16px;
+  line-height: 149.5%;
+  color: #8F9095;
+}
+
+body section.skincare-wrapper .owl-nav {
+  display: none;
+}
+
+body section.skincare-wrapper .section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+body section.skincare-wrapper .section-header a.btn.btn-showmore {
+  position: absolute;
+  right: 0;
+  font-size: 17px;
+  line-height: 0;
+  color: #151442;
+  border: 1px solid #102421;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 31px;
+  width: 188px;
+  float: right;
+  padding: 20px;
+  margin-top: 20px;
+  max-height: 61px;
+}
+
+body section.skincare-wrapper .section-header a.btn.btn-showmore:hover {
+  background-color: #102421;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1560px) {
+  body section.home-banner .banner-content h1 {
+    font-size: 80px;
+  }
+  body section.home-banner .bg-width {
+    width: 45%;
+  }
+  body section.home-banner .banner-width {
+    width: 55%;
+    position: relative;
+  }
+  body section.home-banner .banner-content {
+    padding: 31% 0 0 12%;
+  }
+  body section.home-banner {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  body .fixed-top {
+    background: #fff;
+  }
+  body .navbar-light .navbar-brand svg:not(:root) {
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
+  body section.home-banner .banner {
+    height: 780px;
+  }
+  body section.home-banner .banner-content h1 {
+    font-size: 80px;
+  }
+  body section.home-banner .bg-width {
+    width: 100%;
+  }
+  body section.home-banner .banner-width {
+    width: 100%;
+    position: relative;
+  }
+  body section.home-banner .banner-content {
+    padding: 14% 0 0 12%;
+  }
+  body section.home-banner .banner-image {
+    left: 0;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body section.home-banner .banner-content h1 {
+    font-size: 43px;
+  }
+  body section.home-banner .banner {
+    height: auto;
+  }
+  body .fixed-top {
+    padding: 20px;
+    height: 60px;
+  }
+  body .navbar-light .navbar-brand {
+    margin-top: 30px;
+    left: 0;
+    position: absolute;
+  }
+  .navbar-light .navbar-toggler {
+    position: absolute;
+    right: 16px;
+  }
+  body section.home-banner .banner-content {
+    padding: 100px 25px 25px;
+  }
+  body section.home-banner .banner-content a.btn.btn-hero, body section.home-banner .banner-content p.banner-cont {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+  }
+  body section.home-banner .banner-content a.btn.btn-hero {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 10px 15px;
+  }
+  body section.home-banner .banner-content a.btn.btn-hero.sec {
+    margin-left: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
